@@ -1,0 +1,313 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    background: linear-gradient(
+        90deg,
+        rgb(38, 124, 51) 0%,
+        rgb(117, 151, 120) 70%
+    );
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #dedede;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #FFFFFF;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #265E30;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #3E7A47;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 17px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+.animated-image {
+    transition: transform 0.5s ease;
+    width: 100%;
+    max-width: 400px;
+}
+
+.animated-image:hover {
+    transform: scale(1.1);
+}
+
+img {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+#proximos-partidos {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#contacto-form {
+    margin-top: 30px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color:green;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e63946;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+.gallery {
+    margin-top: 50px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.stadium-info {
+    margin-bottom: 30px;
+}
+
+.stadium-info p {
+    line-height: 1.6;
+}
+
+.stadium-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.stadium-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.team-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-logos a {
+    margin: 10px;
+}
+
+.team-logos img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.league-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.league-logos a {
+    margin: 0 10px;
+}
+
+.league-logos img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#noticias {
+    margin-top: 20px;
+}
+
+#noticias h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.article-box {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-box h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.article-box p {
+    color: #666;
+}

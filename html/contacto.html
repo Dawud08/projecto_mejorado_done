@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body class="container">
+    <header>
+        <div class="content"> 
+            <div class="menu container">
+                <nav class="navbar"> 
+                    <ul>
+                        <li><a href="../index.html">Cricket</a></li>
+                        <li><a href="../html/calendarios.html">Partidos</a></li>
+                        <li><a href="../html/noticias.html">Noticias</a></li>
+                        <li><a href="../html/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Contacto</h1>
+        
+        <section id="contacto-form">
+            <h2>Ponerse en Contacto</h2>
+            <p>Si tienes alguna pregunta, comentario o sugerencia, por favor llena el siguiente formulario de contacto.</p>
+
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
